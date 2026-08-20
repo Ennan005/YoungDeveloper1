@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - My Website</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .contact-section {
+            padding: 70px 0;
+        }
+
+        .contact-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .title {
+            color: #0d6efd;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .btn {
+            border-radius: 25px;
+            padding: 10px 30px;
+        }
+
+        .nav-link {
+            margin: 0 8px;
+        }
+
+        .nav-link:hover {
+            color: #0d6efd !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold text-primary" href="home.html">
+                My Website
+            </a>
+
+            <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+    <section class="contact-section">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h1 class="fw-bold title">
+                    Contact Me
+                </h1>
+
+                <p class="text-muted">
+                    I would love to hear from you.
+                </p>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-7">
+
+                    <div class="contact-box">
+
+                        <form>
+
+                            <div class="mb-3">
+
+                                <label class="form-label fw-bold">
+                                    Your Name
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       placeholder="Enter your name">
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label class="form-label fw-bold">
+                                    Email Address
+                                </label>
+
+                                <input type="email"
+                                       class="form-control"
+                                       placeholder="Enter your email">
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label class="form-label fw-bold">
+                                    Message
+                                </label>
+
+                                <textarea class="form-control"
+                                          rows="5"
+                                          placeholder="Write your message"></textarea>
+
+                            </div>
+
+
+                            <div class="text-center mt-4">
+
+                                <button type="submit"
+                                        class="btn btn-primary">
+                                    Send Message
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
